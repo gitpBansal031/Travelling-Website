@@ -1,0 +1,37 @@
+/* navbar category options */
+#filters {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+
+.filter-trending{
+  opacity: 1 !important;
+}
+
+.filter:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.filter p {
+  font-size: 0.8rem;
+}
+
+.tax-toggle{
+  background-color: #fe424d;
+  color: white;
+  font-size: 0.8rem;
+  height: 2.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 6rem;
+  display: flex;
+  align-items: center ;
+}
